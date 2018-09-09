@@ -1,0 +1,330 @@
+﻿빌드 시작: 2016-12-16 오전 12:25:20
+     1>3 노드의 "D:\Projects\BlindSlayer\proj.win32\BlindSlayer.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         D:\Program Files (x86)\VC\bin\CL.exe /c /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\external /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\cocos\audio\include /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\cocos /I"D:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\cocos/editor-support" /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /ID:\Projects\BlindSlayer\cocos2d\cocos\2d\..\..\external /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\CAnimation.cpp ..\Classes\EndingScene.cpp ..\Classes\EnterScene.cpp ..\Classes\IntroScene.cpp ..\Classes\MenuScene.cpp ..\Classes\OptionScene.cpp ..\Classes\Slayer.cpp ..\Classes\StageFive.cpp ..\Classes\StageFour.cpp ..\Classes\StageOne.cpp ..\Classes\StageSeven.cpp ..\Classes\StageSix.cpp ..\Classes\StageThree.cpp ..\Classes\StageTwo.cpp ..\Classes\StartScene.cpp main.cpp
+         AppDelegate.cpp
+         CAnimation.cpp
+         EndingScene.cpp
+         EnterScene.cpp
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\CAnimation.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\CAnimation.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\AppDelegate.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\AppDelegate.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EndingScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EnterScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EndingScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EnterScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EnterScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\AppDelegate.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EndingScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\CAnimation.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\AppDelegate.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EnterScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\CAnimation.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EndingScene.cpp)
+     1>..\Classes\CAnimation.cpp(16): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\CAnimation.cpp(41): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\CAnimation.cpp(64): warning C4018: '>=' : signed 또는 unsigned가 일치하지 않습니다.
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\AppDelegate.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\AppDelegate.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\EnterScene.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\EnterScene.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\EndingScene.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\EndingScene.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\AppDelegate.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EnterScene.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\EndingScene.cpp)
+     1>..\Classes\EnterScene.cpp(24): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\EndingScene.cpp(38): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\EndingScene.cpp(60): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\EndingScene.cpp(66): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\EndingScene.cpp(72): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\EndingScene.cpp(86): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+         IntroScene.cpp
+         MenuScene.cpp
+         OptionScene.cpp
+         Slayer.cpp
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\IntroScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\IntroScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\OptionScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\OptionScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\MenuScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\MenuScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\Slayer.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\Slayer.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\IntroScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\OptionScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\MenuScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\Slayer.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\IntroScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\MenuScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\OptionScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\Slayer.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\IntroScene.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\IntroScene.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\IntroScene.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\MenuScene.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\MenuScene.cpp)
+     1>..\Classes\IntroScene.cpp(24): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\IntroScene.cpp(35): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\IntroScene.cpp(46): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\IntroScene.cpp(52): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\IntroScene.cpp(58): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\IntroScene.cpp(70): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\OptionScene.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\MenuScene.cpp)
+     1>..\Classes\OptionScene.cpp(33): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\OptionScene.cpp(66): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\OptionScene.cpp(86): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\OptionScene.cpp(89): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\MenuScene.cpp(46): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+         StageFive.cpp
+         StageFour.cpp
+         StageOne.cpp
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFive.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFive.cpp)
+         StageSeven.cpp
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFour.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFour.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSeven.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSeven.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageOne.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageOne.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFive.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFour.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFive.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSeven.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageOne.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFour.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageFive.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageFive.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSeven.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFive.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageOne.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageFour.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageFour.cpp)
+     1>..\Classes\StageFive.cpp(153): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFive.cpp(156): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFive.cpp(157): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFive.cpp(197): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFive.cpp(430): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFive.cpp(442): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFive.cpp(691): warning C4996: 'cocos2d::Node::setRotationY': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+     1>..\Classes\StageFive.cpp(819): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageFour.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageSeven.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageSeven.cpp)
+     1>..\Classes\StageFour.cpp(153): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFour.cpp(156): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFour.cpp(157): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFour.cpp(195): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFour.cpp(428): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFour.cpp(440): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageFour.cpp(689): warning C4996: 'cocos2d::Node::setRotationY': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+     1>..\Classes\StageFour.cpp(817): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageOne.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageOne.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageOne.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSeven.cpp)
+     1>..\Classes\StageSeven.cpp(155): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(158): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(159): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(198): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(230): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(231): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(262): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(290): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(291): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(530): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(542): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSeven.cpp(797): warning C4996: 'cocos2d::Node::setRotationY': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+     1>..\Classes\StageSeven.cpp(930): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageOne.cpp(154): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageOne.cpp(157): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageOne.cpp(158): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageOne.cpp(199): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageOne.cpp(433): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageOne.cpp(445): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageOne.cpp(694): warning C4996: 'cocos2d::Node::setRotationY': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+     1>..\Classes\StageOne.cpp(822): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+         StageSix.cpp
+         StageThree.cpp
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSix.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSix.cpp)
+         StageTwo.cpp
+         StartScene.cpp
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageThree.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageThree.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageTwo.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageTwo.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StartScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StartScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSix.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageThree.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSix.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageTwo.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StartScene.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageThree.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageSix.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageSix.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageTwo.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StartScene.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageSix.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageThree.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageThree.cpp)
+     1>..\Classes\StageSix.cpp(153): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSix.cpp(156): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSix.cpp(157): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSix.cpp(201): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSix.cpp(435): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSix.cpp(447): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageSix.cpp(696): warning C4996: 'cocos2d::Node::setRotationY': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+     1>..\Classes\StageSix.cpp(824): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageThree.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageTwo.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StageTwo.cpp)
+     1>..\Classes\StageThree.cpp(153): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(156): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(157): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(198): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(230): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(231): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(262): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(496): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(508): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageThree.cpp(757): warning C4996: 'cocos2d::Node::setRotationY': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+     1>..\Classes\StageThree.cpp(885): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>d:\projects\blindslayer\classes\Monster.h(31): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StartScene.cpp)
+     1>d:\projects\blindslayer\classes\Monster.h(36): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다. (..\Classes\StartScene.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StageTwo.cpp)
+     1>D:\Projects\BlindSlayer\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\StartScene.cpp)
+     1>..\Classes\StageTwo.cpp(153): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(156): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(157): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(199): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(232): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(233): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(467): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(479): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StageTwo.cpp(728): warning C4996: 'cocos2d::Node::setRotationY': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCNode.h(671) : 'cocos2d::Node::setRotationY' 선언을 참조하십시오.
+     1>..\Classes\StageTwo.cpp(856): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>..\Classes\StartScene.cpp(41): warning C4996: 'cocos2d::Layer::setTouchEnabled': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\2d/CCLayer.h(179) : 'cocos2d::Layer::setTouchEnabled' 선언을 참조하십시오.
+     1>..\Classes\StartScene.cpp(43): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+                 d:\projects\blindslayer\cocos2d\cocos\base/CCDirector.h(141) : 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+     1>..\Classes\StartScene.cpp(56): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+         main.cpp
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (main.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (main.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (main.cpp)
+     1>d:\projects\blindslayer\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (main.cpp)
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release.win32\game.res" game.rc 
+       Link:
+         D:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Projects\BlindSlayer\proj.win32\Release.win32\ /LIBPATH:D:\Projects\BlindSlayer\proj.win32\Release.win32\ libcurl_imp.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer.lib" /MACHINE:X86 /SAFESEH Release.win32\game.res
+         Release.win32\AppDelegate.obj
+         Release.win32\CAnimation.obj
+         Release.win32\EndingScene.obj
+         Release.win32\EnterScene.obj
+         Release.win32\IntroScene.obj
+         Release.win32\MenuScene.obj
+         Release.win32\OptionScene.obj
+         Release.win32\Slayer.obj
+         Release.win32\StageFive.obj
+         Release.win32\StageFour.obj
+         Release.win32\StageOne.obj
+         Release.win32\StageSeven.obj
+         Release.win32\StageSix.obj
+         Release.win32\StageThree.obj
+         Release.win32\StageTwo.obj
+         Release.win32\StartScene.obj
+         Release.win32\main.obj
+         D:\Projects\BlindSlayer\proj.win32\Release.win32\libcocos2d.lib
+         D:\Projects\BlindSlayer\proj.win32\Release.win32\libSpine.lib
+         D:\Projects\BlindSlayer\proj.win32\Release.win32\libbox2d.lib
+            D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer.lib 라이브러리 및 D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer.exp 개체를 생성하고 있습니다.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         BlindSlayer.vcxproj -> D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer.exe
+       CustomBuildStep:
+         if not exist "D:\Projects\BlindSlayer\proj.win32\Release.win32\" mkdir "D:\Projects\BlindSlayer\proj.win32\Release.win32\"
+         xcopy "D:\Projects\BlindSlayer\proj.win32\..\Resources" "D:\Projects\BlindSlayer\proj.win32\Release.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         D:\Projects\BlindSlayer\Resources\BlindSlayer_atlas\BlindSlayer_atlas.plist -> D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer_atlas\BlindSlayer_atlas.plist
+         D:\Projects\BlindSlayer\Resources\BlindSlayer_atlas\BlindSlayer_atlas.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\BlindSlayer_atlas\BlindSlayer_atlas.png
+         D:\Projects\BlindSlayer\Resources\button\btn_down_normal.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\button\btn_down_normal.png
+         D:\Projects\BlindSlayer\Resources\button\btn_down_selected.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\button\btn_down_selected.png
+         D:\Projects\BlindSlayer\Resources\button\btn_normal.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\button\btn_normal.png
+         D:\Projects\BlindSlayer\Resources\button\btn_selected.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\button\btn_selected.png
+         D:\Projects\BlindSlayer\Resources\button\btn_up_normal.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\button\btn_up_normal.png
+         D:\Projects\BlindSlayer\Resources\button\btn_up_selected.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\button\btn_up_selected.png
+         D:\Projects\BlindSlayer\Resources\deco\flower.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\deco\flower.png
+         D:\Projects\BlindSlayer\Resources\deco\hand.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\deco\hand.png
+         D:\Projects\BlindSlayer\Resources\deco\made.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\deco\made.png
+         D:\Projects\BlindSlayer\Resources\deco\startImg.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\deco\startImg.png
+         D:\Projects\BlindSlayer\Resources\deco\sword.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\deco\sword.png
+         D:\Projects\BlindSlayer\Resources\dog\dog_walk_0.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\dog\dog_walk_0.png
+         D:\Projects\BlindSlayer\Resources\dog\dog_walk_1.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\dog\dog_walk_1.png
+         D:\Projects\BlindSlayer\Resources\dog\dog_walk_2.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\dog\dog_walk_2.png
+         D:\Projects\BlindSlayer\Resources\dog\dog_walk_3.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\dog\dog_walk_3.png
+         D:\Projects\BlindSlayer\Resources\ending\developer.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\ending\developer.png
+         D:\Projects\BlindSlayer\Resources\ending\ending_0.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\ending\ending_0.png
+         D:\Projects\BlindSlayer\Resources\ending\ending_1.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\ending\ending_1.png
+         D:\Projects\BlindSlayer\Resources\ending\ending_2.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\ending\ending_2.png
+         D:\Projects\BlindSlayer\Resources\ending\ending_3.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\ending\ending_3.png
+         D:\Projects\BlindSlayer\Resources\ending\ending_4.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\ending\ending_4.png
+         D:\Projects\BlindSlayer\Resources\ending\ending_5.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\ending\ending_5.png
+         D:\Projects\BlindSlayer\Resources\flash\flash_0.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\flash\flash_0.png
+         D:\Projects\BlindSlayer\Resources\flash\flash_1.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\flash\flash_1.png
+         D:\Projects\BlindSlayer\Resources\flash\flash_2.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\flash\flash_2.png
+         D:\Projects\BlindSlayer\Resources\fonts\arial.ttf -> D:\Projects\BlindSlayer\proj.win32\Release.win32\fonts\arial.ttf
+         D:\Projects\BlindSlayer\Resources\fonts\Japanese Style.ttf -> D:\Projects\BlindSlayer\proj.win32\Release.win32\fonts\Japanese Style.ttf
+         D:\Projects\BlindSlayer\Resources\fonts\Marker Felt.ttf -> D:\Projects\BlindSlayer\proj.win32\Release.win32\fonts\Marker Felt.ttf
+         D:\Projects\BlindSlayer\Resources\fonts\SDSwaggerTTF.ttf -> D:\Projects\BlindSlayer\proj.win32\Release.win32\fonts\SDSwaggerTTF.ttf
+         D:\Projects\BlindSlayer\Resources\hit\atkEffect.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\hit\atkEffect.png
+         D:\Projects\BlindSlayer\Resources\hit\playerHit.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\hit\playerHit.png
+         D:\Projects\BlindSlayer\Resources\res\.gitkeep -> D:\Projects\BlindSlayer\proj.win32\Release.win32\res\.gitkeep
+         D:\Projects\BlindSlayer\Resources\slider\SliderNode_Disable.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\slider\SliderNode_Disable.png
+         D:\Projects\BlindSlayer\Resources\slider\SliderNode_Normal.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\slider\SliderNode_Normal.png
+         D:\Projects\BlindSlayer\Resources\slider\SliderNode_Press.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\slider\SliderNode_Press.png
+         D:\Projects\BlindSlayer\Resources\slider\Slider_Back.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\slider\Slider_Back.png
+         D:\Projects\BlindSlayer\Resources\slider\Slider_PressBar.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\slider\Slider_PressBar.png
+         D:\Projects\BlindSlayer\Resources\sound\bgm.mp3 -> D:\Projects\BlindSlayer\proj.win32\Release.win32\sound\bgm.mp3
+         D:\Projects\BlindSlayer\Resources\sound\boss.mp3 -> D:\Projects\BlindSlayer\proj.win32\Release.win32\sound\boss.mp3
+         D:\Projects\BlindSlayer\Resources\sound\death.mp3 -> D:\Projects\BlindSlayer\proj.win32\Release.win32\sound\death.mp3
+         D:\Projects\BlindSlayer\Resources\sound\hit.mp3 -> D:\Projects\BlindSlayer\proj.win32\Release.win32\sound\hit.mp3
+         D:\Projects\BlindSlayer\Resources\sound\inGameBGM.mp3 -> D:\Projects\BlindSlayer\proj.win32\Release.win32\sound\inGameBGM.mp3
+         D:\Projects\BlindSlayer\Resources\sound\sword.mp3 -> D:\Projects\BlindSlayer\proj.win32\Release.win32\sound\sword.mp3
+         D:\Projects\BlindSlayer\Resources\soundImg\sound_0.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\soundImg\sound_0.png
+         D:\Projects\BlindSlayer\Resources\soundImg\sound_1.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\soundImg\sound_1.png
+         D:\Projects\BlindSlayer\Resources\soundImg\sound_2.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\soundImg\sound_2.png
+         D:\Projects\BlindSlayer\Resources\soundImg\sound_3.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\soundImg\sound_3.png
+         D:\Projects\BlindSlayer\Resources\tutorial\story0.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\story0.png
+         D:\Projects\BlindSlayer\Resources\tutorial\story1.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\story1.png
+         D:\Projects\BlindSlayer\Resources\tutorial\story2.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\story2.png
+         D:\Projects\BlindSlayer\Resources\tutorial\story3.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\story3.png
+         D:\Projects\BlindSlayer\Resources\tutorial\story4.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\story4.png
+         D:\Projects\BlindSlayer\Resources\tutorial\story5.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\story5.png
+         D:\Projects\BlindSlayer\Resources\tutorial\story6.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\story6.png
+         D:\Projects\BlindSlayer\Resources\tutorial\tutorial.png -> D:\Projects\BlindSlayer\proj.win32\Release.win32\tutorial\tutorial.png
+         57개 파일이 복사되었습니다.
+     1>"D:\Projects\BlindSlayer\proj.win32\BlindSlayer.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:47.48

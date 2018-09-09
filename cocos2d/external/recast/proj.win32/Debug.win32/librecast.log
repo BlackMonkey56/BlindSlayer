@@ -1,0 +1,26 @@
+﻿빌드 시작: 2016-12-15 오후 8:45:56
+     1>5 노드의 "D:\Projects\BlindSlayer\cocos2d\external\recast\proj.win32\librecast.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Lib:
+         D:\Program Files (x86)\VC\bin\Lib.exe /OUT:"D:\Projects\BlindSlayer\proj.win32\Debug.win32\librecast.lib" /NOLOGO Debug.win32\DebugDraw.obj
+         Debug.win32\DetourDebugDraw.obj
+         Debug.win32\DetourCrowd.obj
+         Debug.win32\DetourLocalBoundary.obj
+         Debug.win32\DetourObstacleAvoidance.obj
+         Debug.win32\DetourPathCorridor.obj
+         Debug.win32\DetourPathQueue.obj
+         Debug.win32\DetourProximityGrid.obj
+         Debug.win32\DetourTileCache.obj
+         Debug.win32\DetourTileCacheBuilder.obj
+         Debug.win32\DetourAlloc.obj
+         Debug.win32\DetourCommon.obj
+         Debug.win32\DetourNavMesh.obj
+         Debug.win32\DetourNavMeshBuilder.obj
+         Debug.win32\DetourNavMeshQuery.obj
+         Debug.win32\DetourNode.obj
+         Debug.win32\fastlz.obj
+         librecast.vcxproj -> D:\Projects\BlindSlayer\proj.win32\Debug.win32\librecast.lib
+     1>"D:\Projects\BlindSlayer\cocos2d\external\recast\proj.win32\librecast.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.14
